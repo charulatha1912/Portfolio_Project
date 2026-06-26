@@ -1,0 +1,36 @@
+/* Projects.css */
+
+/* Page hero banner - shared across Projects and Internships pages */
+.page-hero {
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--border);
+  padding: 48px 0 40px;
+}
+
+.page-hero h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.page-hero p {
+  color: var(--secondary);
+  font-size: 0.95rem;
+}
+
+/* Projects section */
+.projects-section {
+  padding: 48px 0 80px;
+}
+
+/* Responsive CSS grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 480px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}

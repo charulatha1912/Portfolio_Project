@@ -1,0 +1,14 @@
+/* App.css - Top-level layout */
+
+/* Makes the app take at least the full viewport height
+   and pushes the footer to the bottom */
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* All page content between navbar and footer grows to fill space */
+.app-layout main {
+  flex: 1;
+}

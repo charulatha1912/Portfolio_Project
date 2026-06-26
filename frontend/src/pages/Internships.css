@@ -1,0 +1,13 @@
+/* Internships.css */
+
+.internships-section {
+  padding: 48px 0 80px;
+}
+
+/* Stack internship cards vertically with max width for readability */
+.internships-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 760px;
+}

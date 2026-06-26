@@ -1,0 +1,50 @@
+/* InternshipCard.css */
+
+.internship-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.internship-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.internship-role {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 4px;
+}
+
+.internship-company {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.internship-duration {
+  font-size: 0.78rem;
+  color: var(--secondary);
+  white-space: nowrap;
+  padding: 3px 8px;
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.internship-description {
+  font-size: 0.9rem;
+  color: var(--secondary);
+  line-height: 1.6;
+}
+
+.internship-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
